@@ -42,7 +42,7 @@ Upper (store) level Variables that affect item sales
 
 ### Mixed-level model using lmer
 
-## Part 1: How item sales vary by outlet type (Grocery store, Supermarket Type 1, 2, 3)
+#### Part 1: How item sales vary by outlet type (Grocery store, Supermarket Type 1, 2, 3)
 
 <img src="https://github.com/netisheth/Big-Mart-Sales/blob/main/Pictures/summary1.png" alt="alt text" width="50%" height="50%">
 
@@ -55,7 +55,7 @@ All three models show consistent and stable beta coefficients for Outlet_Type. S
 - From the standard errors, Supermarket Type 1, 2, and 3 are also significantly different from each other.
 - The order of Item_Sales by Outlet_Type is Supermarket Type 3 (highest), Type 1,Type 2, and Grocery Store (lowest).
 
-## Part 2: How item sales by city type (Tier 1, 2 and 3) 
+#### Part 2: How item sales by city type (Tier 1, 2 and 3) 
 
 <img src="https://github.com/netisheth/Big-Mart-Sales/blob/main/Pictures/summary2.png" alt="alt text" width="50%" height="50%">
 
