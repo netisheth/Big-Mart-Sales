@@ -39,3 +39,29 @@ Upper (store) level Variables that affect item sales
 -   Outlet_Type:      First part of analysis: how sales vary by outlet type
 -   City_Type:        Second part of analysis: how sales vary by city type
 -   Outlet_Age:       New variable; 2013 - Outlet_Year
+
+### Mixed-level model using lmer
+
+## Part 1: How item sales vary by outlet type (Grocery store, Supermarket Type 1, 2, 3)
+
+![](https://github.com/netisheth/Big-Mart-Sales/blob/main/Pictures/summary1.png?raw=true "Optional Title")
+
+***Interpretation:***
+
+All three models show consistent and stable beta coefficients for Outlet_Type. Since m2 and m3 are more comprehensive, and their estimates are identical, we will use these models for interpretation. Our analysis shows that:
+- Supermarket Type 1 make $1,931 more in sales than Grocery Stores (p<0.01), when controlled for item and outlet level differences.
+- Supermarket Type 2 make $1,580 more in sales than Grocery Stores (p<0.05)
+- Supermarket Type 3 make $3,365 more in sales than Grocery Stores (p<0.001)
+- From the standard errors, Supermarket Type 1, 2, and 3 are also significantly different from each other.
+- The order of Item_Sales by Outlet_Type is Supermarket Type 3 (highest), Type 1,Type 2, and Grocery Store (lowest).
+
+## Part 2: How item sales by city type (Tier 1, 2 and 3) 
+
+![](https://github.com/netisheth/Big-Mart-Sales/blob/main/Pictures/summary2.png?raw=true "Optional Title")
+
+***Interpretation:***
+ 
+Models m4, m5, and m6 had very different parameter estimates, but since m4 was very basic, and m5 and m6 parameters are stable and consistent, we use those models for interpretation.
+- Items sell the highest in Tier 1 cities when controlled for item and outlet level differences.
+- Outlets in Tier 2 and 3 cities sell $16 and $14 less compared to Tier 1; however these diferences are not statistically significant.
+- Based on these findings, we infer that city tiers have no discernable impact on item sales.
