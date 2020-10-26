@@ -1,7 +1,5 @@
 # Big-Mart-Sales
 
-### Objective
-
 We want to analyze how sales vary by outlet type (Grocery store versus Supermarket Type 1, 2, or 3) and city type (Tier 1, 2 and 3)
 
 ### Data
