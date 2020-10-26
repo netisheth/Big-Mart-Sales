@@ -44,10 +44,7 @@ Upper (store) level Variables that affect item sales
 
 ## Part 1: How item sales vary by outlet type (Grocery store, Supermarket Type 1, 2, 3)
 
-![](https://github.com/netisheth/Big-Mart-Sales/blob/main/Pictures/summary1.png?raw=true "Optional Title")
-
 <img src="https://github.com/netisheth/Big-Mart-Sales/blob/main/Pictures/summary1.png" alt="alt text" width="50%" height="50%">
-
 
 ***Interpretation:***
 
@@ -60,7 +57,7 @@ All three models show consistent and stable beta coefficients for Outlet_Type. S
 
 ## Part 2: How item sales by city type (Tier 1, 2 and 3) 
 
-![](https://github.com/netisheth/Big-Mart-Sales/blob/main/Pictures/summary2.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Big-Mart-Sales/blob/main/Pictures/summary2.png" alt="alt text" width="50%" height="50%">
 
 ***Interpretation:***
  
