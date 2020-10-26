@@ -46,6 +46,9 @@ Upper (store) level Variables that affect item sales
 
 ![](https://github.com/netisheth/Big-Mart-Sales/blob/main/Pictures/summary1.png?raw=true "Optional Title")
 
+<img src="https://github.com/netisheth/Big-Mart-Sales/blob/main/Pictures/summary1.png" alt="alt text" width="50%" height="50%">
+
+
 ***Interpretation:***
 
 All three models show consistent and stable beta coefficients for Outlet_Type. Since m2 and m3 are more comprehensive, and their estimates are identical, we will use these models for interpretation. Our analysis shows that:
