@@ -24,22 +24,18 @@ Attributes:
 - **Outlet_Type**:	Grocery Store, Supermarket Type1, Supermarket Type2, Supermarket Type3
 - **Item_Sales**:	Sales of product in this store
 
-# Variable selection for Mixed Level Analysis
+### Variable selection for Mixed Level Analysis
 
-#' Dependent variable: Item_Sales
+Dependent variable: Item_Sales
 
-#' Lower (item) level variables that affect item sales:
-#'   Item_ID:          Unit of analysis (will not be included in model)
-#'   Item_Visibility:  More visible products should sell more
-#'   Item_Type:        Certain item types such as dairy or vegetables may sell more
-#'   Item_MRP:         Pricier items may sell less
+Lower (item) level variables that affect item sales:
+-   Item_ID:          Unit of analysis (will not be included in model)
+-   Item_Visibility:  More visible products should sell more
+-   Item_Type:        Certain item types such as dairy or vegetables may sell more
+-   Item_MRP:         Pricier items may sell less
 
-#' Upper (store) level Variables that affect item sales
-#'   Outlet_ID:        Unit of analysis for upper-level (must be included in model)
-#'   Outlet_Type:      First part of analysis: how sales vary by outlet type
-#'   City_Type:        Second part of analysis: how sales vary by city type
-#'   Outlet_Age:       New variable; 2013 - Outlet_Year
-
-#' Note: Outlet_year (year of founding of outlet) doesn't make sense as a predictor,
-#' but older outlets may have more established clientale and may sell more compared
-#' to new ones. We measure Outlet_Age as current year (2013) - year of founding
+Upper (store) level Variables that affect item sales
+-   Outlet_ID:        Unit of analysis for upper-level (must be included in model)
+-   Outlet_Type:      First part of analysis: how sales vary by outlet type
+-   City_Type:        Second part of analysis: how sales vary by city type
+-   Outlet_Age:       New variable; 2013 - Outlet_Year
