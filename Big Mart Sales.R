@@ -1,4 +1,3 @@
-#' Assignment A6: Mixed-level models
 #' Data: BigMartSales.xlsx
 
 # Read data
