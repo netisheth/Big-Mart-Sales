@@ -1,6 +1,9 @@
 # Big-Mart-Sales
 
-We want to analyze how sales vary by outlet type (Grocery store versus Supermarket Type 1, 2, or 3) and city type (Tier 1, 2 and 3)
+- Build a predictive model and predict the sales of each product at a particular outlet.
+- Analyze how sales vary by outlet type (Grocery store versus Supermarket Type 1, 2, or 3) and city type (Tier 1, 2 and 3)
+
+Using this model, BigMart can understand the properties of products and outlets which play a key role in increasing sales.
 
 ### Data
 
